@@ -20,7 +20,7 @@
 		<div class="container">
 			<div class="header-line">
 				<div class="header-logo">
-					<img src="LOGO.png" alt="">
+					<img src="header_pics/LOGO.png" alt="">
 				</div>
 
 				<div class="nav-items">
@@ -33,14 +33,14 @@
 	
 					<div class="cart">
 						<a href="#">
-							<img class="cart-img" src="cart.png" alt="">
+							<img class="cart-img" src="header_pics/cart.png" alt="">
 						</a>
 					</div>
 	
 					<div class="phone">
 						<div class="phone-holder">
 							<div class="phone-img">
-								<img src="phone.png" alt="">
+								<img src="header_pics/phone.png" alt="">
 							</div>
 							
 							<div class="number">
@@ -58,6 +58,18 @@
 					</div>
 				</div>
 
+				<div class="burger-menu">
+					<button id="burger-menu-btn">
+						<img src="header_pics/burger-menu.png" alt="">
+					</button>
+
+					<div class="burger-slide hidden" id="menu">
+						<a class="nav-item block" href="#">ГЛАВНАЯ</a>
+						<a class="nav-item block" href="#">МЕНЮ</a>
+						<a class="nav-item block" href="#">О НАС</a>
+						<a class="nav-item block" href="#">БРОНЬ</a>
+					</div>
+				</div>
 			</div>
 
 			<div class="header-down">
@@ -88,7 +100,7 @@
 
 				<div class="card">
 					<div class="card-image">
-						<img src="card.png" class="card-img">
+						<img src="card_pics/card.png" class="card-img">
 					</div>
 					<div class="card-title">
 						Магическая <span>Атмосфера</span>
@@ -101,7 +113,7 @@
 	
 				<div class="card">
 					<div class="card-image">
-						<img src="card.png" class="card-img">
+						<img src="card_pics/card.png" class="card-img">
 					</div>
 					<div class="card-title">
 						Лучшее качество <span>Еды</span>
@@ -114,7 +126,7 @@
 	
 				<div class="card">
 					<div class="card-image">
-						<img src="card.png" class="card-img">
+						<img src="card_pics/card.png" class="card-img">
 					</div>
 					<div class="card-title">
 						Недорогая <span>Еда</span>
@@ -210,21 +222,21 @@
 					<div class="burger-item">
 						<img src="dishes_pics/hamburger.jpg" class="hamburger">
 						<div class="burger-text">
-							Гамбургер мини ------------------------ 220 ₽
+							Гамбургер мини ------------- 220 ₽
 						</div>
 					</div>
 
 					<div class="burger-item">
 						<img src="dishes_pics/hamburger.jpg" class="hamburger">
 						<div class="burger-text">
-							Гамбургер мини ------------------------ 220 ₽
+							Гамбургер мини ------------- 220 ₽
 						</div>
 					</div>
 
 					<div class="burger-item">
 						<img src="dishes_pics/hamburger.jpg" class="hamburger">
 						<div class="burger-text">
-							Гамбургер мини ------------------------ 220 ₽
+							Гамбургер мини ------------- 220 ₽
 						</div>
 					</div>
 				</div>
@@ -249,17 +261,8 @@
 
 			<div class="menu-items">
 				<div class="menu-item">
-
-
 					<div class="menu-image">
-						<img src="menu_pics/menu-item.png" class="menu-img">
-
-						<div class="price">
-							<img src="menu_pics/price.png" class="price-img">
-							<div class="price-text">
-								420
-							</div>
-						</div>
+						<img src="menu_pics/burger-with-price.png" class="menu-img">
 					</div>
 
 					<div class="menu-text">
@@ -277,16 +280,8 @@
 				</div>
 
 				<div class="menu-item">
-
 					<div class="menu-image">
-						<img src="menu_pics/menu-item.png" class="menu-img">
-
-						<div class="price">
-							<img src="menu_pics/price.png" class="price-img">
-							<div class="price-text">
-								420
-							</div>
-						</div>
+						<img src="menu_pics/burger-with-price.png" class="menu-img">
 					</div>
 
 					<div class="menu-text">
@@ -305,16 +300,8 @@
 				</div>
 
 				<div class="menu-item">
-
 					<div class="menu-image">
-						<img src="menu_pics/menu-item.png" class="menu-img">
-
-						<div class="price">
-							<img src="menu_pics/price.png" class="price-img">
-							<div class="price-text">
-								420
-							</div>
-						</div>
+						<img src="menu_pics/burger-with-price.png" class="menu-img">
 					</div>
 
 					<div class="menu-text">
@@ -365,23 +352,23 @@
 			<div class="gallery-content">
 				<div class="gallery-left">
 					<div class="gallery-up">
-						<img src="gallery/1.jpg">
+						<img class="img-gal long" src="gallery/1.jpg">
 					</div>
 
 					<div class="gallery-down">
-						<img src="gallery/2.jpg">
-						<img src="gallery/3.jpg">
+						<img class="img-gal" src="gallery/2.jpg">
+						<img class="img-gal" src="gallery/3.jpg">
 					</div>
 				</div>
 
 				<div class="gallery-right">
 					<div class="gallery-up">
-						<img src="gallery/2.jpg">
-						<img src="gallery/3.jpg">
+						<img class="img-gal" src="gallery/2.jpg">
+						<img class="img-gal" src="gallery/3.jpg">
 					</div>
 
 					<div class="gallery-down">
-						<img src="gallery/1.jpg">
+						<img class="img-gal long" src="gallery/1.jpg">
 					</div>
 				</div>
 			</div>
@@ -405,6 +392,8 @@
 	<div class="footer">
 		© Daniil Bykh, 2023
 	</div>
+
+	<script src="script.js"></script>
 
 </body>
 </html>
