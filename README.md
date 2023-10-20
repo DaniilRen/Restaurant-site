@@ -1,2 +1,2 @@
-# Restaurant-site
-My website for Armenian restaurant (using model, Figma)
+# Restaurant-website
+My website for Armenian restaurant / Figma
